@@ -119,7 +119,7 @@ public class Page {
 			log.debug("Navigated to: "+config.getProperty("testsiteurl"));
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")),
 					TimeUnit.SECONDS);
-			wait = new WebDriverWait(driver, 5);
+			wait = new WebDriverWait(driver, 15);
 			
 			menu = new TopMenu(driver);
 		}
