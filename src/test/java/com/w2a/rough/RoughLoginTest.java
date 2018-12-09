@@ -11,7 +11,6 @@ public class RoughLoginTest {
 
 	public static void main(String[] args) {
 
-		//This is a rough test
 		HomePage home = new HomePage();
 		LoginPage login = home.gotoLogin();
 		
